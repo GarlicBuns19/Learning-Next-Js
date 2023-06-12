@@ -1,6 +1,8 @@
 // `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
+import Container from "@/components/container";
+
 export default function Dashboard() {
   return (
-    <h2 className={"text-white font-bold text-2xl"}>App Dashboard</h2>
+     <h2>The Page Content</h2>
   )
 }
